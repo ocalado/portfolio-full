@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Ubuntu:wght@400;500&display=swap');
+
+:root {
+    --title-color: #374151;
+    --text-color: #4B5563;
+    --card-img-height: 200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+} 
+
+@media (max-width: 600px)
+{
+  .cabecalho
+   {
+    display: flex;
+    flex-direction: column;
+   }
+   .menu ul li 
+   {
+    margin-left: 0;
+   }
+   
+}
+
+p, span {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text-color);
+}
+
+a {
+    color: var(--text-color);
+    
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.cabecalho h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: var(--title-color);
+    font-size: 2em;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li {
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    color: var(--text-color);
+    list-style: none;
+}
+
+
+.button-menu {
+    margin-left: 0;
+}
+
+
+.title-about {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 0.1px dashed var(--text-color);
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+    font-size: 30px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.content, .continue-link {
+    padding-top: 20px;
+}
+
+.continue-link:hover {
+    text-decoration: underline;
+}
+
+.content h2 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+    font-size: 25px;
+}
+
+.content ul {
+    font-family: 'Open Sans', sans-serif; 
+    color: var(--text-color);
+}
+
+.content ul li {
+    padding-bottom: 10px;;
+}
+
+.subtitle-about{
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: #4B5563;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 0;
+}
+
+.brand {
+    font-size: 35px;
+}
+
+.cards-job {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 20px;
+
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+
+
+
